@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <style>
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background: #87a2b0;
+            background: linear-gradient(90deg, rgba(135, 162, 176, 1) 0%, rgba(78, 237, 144, 1) 50%, rgba(189, 178, 83, 1) 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .card{
+            width: 60%;
+            height: 60%;
+            background-color: rgb(87, 1, 30);
+            display: flex;
+
+        }
+        #leftbox{
+            flex: 1;
+        }
+        .heading h2{
+            font-size: 2rem;
+            color: white;
+            padding-left: 3rem;
+            padding-top: 2rem;
+        }
+        #rightbox img{
+            display: flex;
+            flex-direction: row;
+            align-items: end;
+        }
+        #rightbox{
+            flex: 1;
+            background-image: url(enterprise-img.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        #para{
+            color: white;
+            padding-left: 3rem;
+            padding-top: 1rem;
+            padding-right: 3rem;
+
+        }
+        #social{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div id="leftbox">
+                <div class="heading">
+                <h2>Get insights that help <br> your business grow</h2>
+                </div>
+                <div id="para">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Recusandae, suscipit? Sed porro vel, id molestiae iusto ut
+                      quasi doloremque enim? suscipit? Sed porro vel, id molestiae iusto ut
+                      quasi doloremque enim?
+                    </p>
+                </div>
+                <div id="social">
+                    <div id="fisrtdiv">
+                        <h2>10K+</h2>
+                        <P>Comments</P>
+                    </div>
+                    <div id="seconddiv">
+                        <h2>214</h2>
+                        <P>Paid Users</P>
+                    </div>
+                    <div id="thirddiv">
+                        <h2>10M</h2>
+                        <P>Views</P>
+                    </div>
+                </div>
+            </div>
+            <div id="rightbox">
+                <div id="rightimg">
+               
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
